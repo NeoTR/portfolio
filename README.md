@@ -16,8 +16,8 @@ This is a portfolio website showcasing various projects. It's built with ReactJS
 
 1. Clone the repository: `git clone https://github.com/NeoTR/portfolio.git`
 2. Install the dependencies: `npm install`
-3. Start the server: `npm start`
-4. Open your browser and navigate to: `http://localhost:3000`
+3. Start the server: `npm run dev`
+4. Open your browser and navigate to: `http://localhost:5173`
 
 ## Contributing
 
