@@ -1,11 +1,11 @@
 import React from "react";
-import NavBar from "@/components/NavBar";
-import Landing from "@/components/Landing";
-import AboutMe from "@components/AboutMe";
-import Skills from "@components/Skills";
-import Projects from "@components/Projects";
-import Contact from "@components/Contact";
-import Footer from "@components/Footer";
+import NavBar from "../NavBar";
+import Landing from "../Landing";
+import AboutMe from "../AboutMe";
+import Skills from "../Skills";
+import Projects from "../Projects";
+import Contact from "../Contact";
+import Footer from "../Footer";
 
 export default function Layout() {
   return (
