@@ -26,9 +26,9 @@ export default function Projects() {
     },
   ];
   return (
-    <div className="bg-neutral-100 min-h-screen w-screen flex flex-col items-center px-4 md:px-0">
-      <div className="my-10 text-center flex-col gap-5 w-full md:w-4/12">
-        <h1 className="text-2xl md:text-4xl font-bold">PROJECTS</h1>
+    <div className="bg-neutral-100 min-h-screen w-screen flex flex-col items-center px-4 xl:px-0">
+      <div className="my-10 text-center flex-col gap-5 w-full xl:w-4/12">
+        <h1 className="text-2xl xl:text-4xl font-bold">PROJECTS</h1>
         <p>Here you will find projects I made for myself or clients. With each project I created I made sure to learn more!</p>
       </div>
       <div className="grid grid-cols-1 gap-4">
@@ -43,19 +43,19 @@ export default function Projects() {
 function Project({ project }) {
   return (
     <div className="overflow-hidden m-4 my-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 m-8">
-        <div className="w-full h-[25rem] md:w-[50rem]">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 m-8">
+        <div className="w-full xl:h-[25rem] xl:w-[50rem]">
           <Swiper modules={[Navigation, Pagination, Scrollbar, A11y]} spaceBetween={50} slidesPerView={1} pagination={{ clickable: true }}>
             {project.images.map((image, index) => (
               <SwiperSlide key={index} className="flex justify-end">
-                <img className="rounded-lg object-scale-down border-black border md:h-[25rem] h-full w-full" src={image} alt="project image" />
+                <img className="rounded-lg object-scale-down border-black border xl:h-[25rem] h-full w-full" src={image} alt="project image" />
               </SwiperSlide>
             ))}
           </Swiper>
         </div>
         <div>
-          <div className="space-y-5 w-full md:w-1/2">
-            <h1 className="font-bold text-xl md:text-2xl">{project.name}</h1>
+          <div className="space-y-5 mt-5 w-full xl:w-1/2">
+            <h1 className="font-bold text-xl xl:text-2xl">{project.name}</h1>
             <p className="text-gray-700 text-start">{project.description}</p>
           </div>
           <div className="mt-5">

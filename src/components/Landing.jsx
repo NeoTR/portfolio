@@ -18,7 +18,9 @@ export default function Landing() {
         </div>
         {/* Content */}
         <div className="flex mb-[30vh] flex-col items-center space-y-[6vh] w-5/12 text-center">
-          <h1 className="font-bold md:text-7xl text-3xl">Hey! I'm NeoTR</h1>
+          <h1 className="font-bold md:text-7xl text-3xl">
+            Hey! I'm <span className="text-gradient">NeoTR</span>
+          </h1>
           <p className="text-xl text-gray-700 leading-9">A Fullstack Web Developer building the Frontend and Backend of Websites and Web Applications that lead to the success of the overall product</p>
           <div>
             <a href="#aboutme" className="md:px-[5rem] px-4 md:py-4 py-2 bg-[#7843e9] text-white font-medium rounded-md hover:translate-y-[-0.3rem] transition duration-300 ease-in-out">
@@ -27,9 +29,15 @@ export default function Landing() {
           </div>
         </div>
         <div>
-          <div className="animate-bounce">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          <div className="animate-bounce hidden md:flex">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24">
+              <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" style={{ stopColor: "#7843e9", stopOpacity: 1 }} />
+                  <stop offset="100%" style={{ stopColor: "#a855f7", stopOpacity: 1 }} />
+                </linearGradient>
+              </defs>
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" stroke="url(#grad1)" />
             </svg>
           </div>
         </div>

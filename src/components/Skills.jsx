@@ -29,8 +29,8 @@ export default function Skills() {
             {skills.map((skill, index) => (
               <SwiperSlide key={index} className="flex justify-center items-center">
                 <div className="flex flex-col justify-center items-center">
-                  <div className="text-6xl">{skill.icon}</div>
-                  <div className="text-2xl hidden md:flex">{skill.name}</div>
+                  <div className="md:text-6xl text-5xl">{skill.icon}</div>
+                  <div className="text-2xl hidden xl:flex">{skill.name}</div>
                 </div>
               </SwiperSlide>
             ))}

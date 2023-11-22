@@ -5,11 +5,11 @@ export default function AboutMe() {
   return (
     <div>
       <div id="aboutme" className="bg-white w-screen min-h-[70vh] flex justify-center items-center py-4">
-        <div className="grid md:grid-cols-2 gap-4 md:gap-[10vh] px-4">
-          <div className="flex justify-center md:justify-end">
-            <img src={image} className="rounded-xl w-full md:w-[25rem] h-[25rem] object-cover" />
+        <div className="grid xl:grid-cols-2 gap-4 xl:gap-[10vh] px-4">
+          <div className="flex justify-center xl:justify-end">
+            <img src={image} className="rounded-xl w-full xl:w-[25rem] h-[25rem] object-cover" />
           </div>
-          <div className="w-full md:w-7/12 space-y-4 h-auto md:h-[25rem]">
+          <div className="w-full xl:w-7/12 space-y-4 h-auto xl:h-[25rem]">
             <h1 className="text-[#7843e9] font-bold text-xl">ABOUT ME</h1>
             <h2 className="text-gray-800 font-bold text-3xl">A hard working Full-Stack Developer from the Netherlands</h2>
             <p className="text-gray-600">

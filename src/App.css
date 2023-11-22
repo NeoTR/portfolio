@@ -10,3 +10,9 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.text-gradient {
+  background: linear-gradient(to right, #7843e9, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

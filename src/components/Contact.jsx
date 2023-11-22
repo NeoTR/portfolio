@@ -13,7 +13,7 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact" className="min-h-screen w-screen flex flex-col items-center">
+    <div id="contact" className="min-h-screen w-screen flex flex-col items-center py-4">
       <div className="my-[10vh] text-center flex-col space-y-5 md:w-4/12 w-10/12">
         <h1 className="text-4xl font-bold">CONTACT</h1>
         <p> Feel free to Contact me by submitting the form below and I will get back to you as soon as possible </p>
