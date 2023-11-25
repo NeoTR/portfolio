@@ -15,7 +15,7 @@ export default function Projects() {
     {
       name: "Landing Page + Stock",
       description: " A react based single page website to display your products that includes a way to show stock. This is a good way to make your customers intrested in your product. Created using TailwindCSS, ReactJS, Vite. ",
-      images: ["https://camo.githubusercontent.com/d532ba3bd65db5bc7bf5534e3add160c963e49a4dd1461e897b5aa95090503f8/68747470733a2f2f692e696d6775722e636f6d2f586f33766133542e706e67"],
+      images: ["https://i.imgur.com/0m4jDCq.png"],
       link: "https://github.com/NeoTR/BusinessPage",
     },
     {
