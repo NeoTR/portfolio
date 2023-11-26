@@ -44,7 +44,7 @@ function Project({ project }) {
   return (
     <div className="overflow-hidden m-4 my-10">
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 m-8">
-        <div className="w-full xl:h-[25rem] xl:w-[50rem]">
+        <div className="w-full xl:h-[25rem] xl:w-max-[50rem]">
           <Swiper modules={[Navigation, Pagination, Scrollbar, A11y]} spaceBetween={50} slidesPerView={1} pagination={{ clickable: true }}>
             {project.images.map((image, index) => (
               <SwiperSlide key={index} className="flex justify-end">
