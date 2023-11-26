@@ -9,7 +9,7 @@ export default function AboutMe() {
           <div className="flex justify-center xl:justify-end">
             <img src={image} className="rounded-xl w-full xl:w-[25rem] h-[25rem] object-cover" />
           </div>
-          <div className="w-full xl:w-7/12 space-y-4 h-auto xl:h-[25rem]">
+          <div className="flex flex-col w-full xl:w-3/4">
             <h1 className="text-[#7843e9] font-bold text-xl">ABOUT ME</h1>
             <h2 className="text-gray-800 font-bold text-3xl">A hard working Full-Stack Developer from the Netherlands</h2>
             <p className="text-gray-600">
